@@ -1,0 +1,124 @@
+body{
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #41f2ff  ;
+}
+
+
+ .en_tete{
+    overflow: hidden;
+    color: #ffffff;
+    background-color: rgb(97, 193, 248);
+    text-align: center;
+    padding: 50px;
+    
+}
+
+ .info{
+    height: 400px;
+    float: right;
+    width: 30%;
+ }
+ .bloc{
+    height: 400px;
+   width: 30%;
+   
+float: left;
+}
+ 
+ .date_de_naissance{
+    margin-right: 15%;
+    float: right;
+    color: black;
+    font-weight: bold;
+ }
+
+
+
+ .yassine{
+    height: 30%;
+    width: 20%;
+    float: left;
+    margin-right: 15%;
+    padding: 1%;
+ }
+
+ .date_de_naissance{
+    color: black;
+    font-weight: bold;
+ }
+
+ .block_2{
+    clear: both;
+ }
+
+ .séparation{
+    color: black;
+    clear: both;
+    width: 75%;
+    border-top: 8px solid #000000;
+    border-radius: 5px;
+    
+ }
+
+ .titre_hr  {
+    color: black;
+    clear: both;
+    width: 75%;
+ }
+
+ .titre {
+    margin-left: 15%;
+    font-weight: bold;
+ }
+
+ .date{
+    margin-left: 15%;
+    float: left;
+    font-weight: bold;
+ }
+
+ .paragraphe_1{
+    float:right;
+    margin-right: 15%;
+ }
+
+ .paragraphe_2{
+    float:right;
+    margin-right: 22%;
+ }
+
+ .paragraphe_3{
+    float:right;
+    margin-right: 26%;
+ }
+
+ .content{
+    border-style: groove;
+    border: solid;
+    border-color: #000000;
+    margin-left: 10%;
+   height: 1700px;
+   width: 1000px;
+   background-color: white;
+ }
+ .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0073e6;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet de survol pour les boutons */
+.button:hover {
+    background-color: #005bb5;
+}
+
+
