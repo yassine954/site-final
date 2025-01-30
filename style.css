@@ -1,0 +1,63 @@
+
+        /* Styles généraux pour centrer le contenu et donner une couleur de fond */
+        body {
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        /* Conteneur principal pour centrer le contenu */
+        .container {
+            text-align: center;
+        }
+
+        /* Style du titre */
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Styles pour les boutons */
+       /* Style général */
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Conteneur principal pour centrer le contenu */
+.container {
+    text-align: center;
+}
+
+/* Style du titre */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les boutons */
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0073e6;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet de survol pour les boutons */
+.button:hover {
+    background-color: #005bb5;
+}
